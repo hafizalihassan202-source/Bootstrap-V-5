@@ -1,0 +1,16 @@
+body{
+    background-image: image('../images/background.jpg');
+}
+
+.table-bordered{
+    border-color: black;
+}
+
+.custom-table tr:hover{
+    background-color: green !important;
+}
+
+.table-dark {
+  --bs-table-bg: #f8f9fa;
+  --bs-table-hover-bg: green;
+}
